@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  color: red;
+  background: yellow;
+}
